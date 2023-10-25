@@ -29,7 +29,7 @@ public class Main {
                     minus(a,b);
                     break;
                 case "3":
-                    multifly(a,b);
+                    multiply(a,b);
                     break;
                 case "4":
                     divide(a,b);
@@ -51,14 +51,14 @@ public class Main {
     private static void minus(int a, int b) {
         System.out.println(a + " - " + b + " = " + (a - b));
     }
-    private static void multifly(int a, int b) {
-       // System.out.println(a + " * " + b + " = " + (a * b));
+    private static void multiply(int a, int b) {
+       System.out.println(a + " * " + b + " = " + (a * b));
     }
     private static void divide(int a, int b) {
-       // System.out.println(a + " / " + b + " = " + (a / b));
+       System.out.println(a + " / " + b + " = " + (a / b));
     }
     private static void modulo(int a, int b) {
-       // System.out.println(a + " % " + b + " = " + (a % b));
+       System.out.println(a + " % " + b + " = " + (a % b));
     }
 }
 
